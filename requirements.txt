@@ -1,7 +1,2 @@
-numpy>=1.26
-pandas>=2.1
-scipy>=1.11
-statsmodels>=0.14
-matplotlib>=3.8
-tabulate>=0.9
-pytest>=8
+# Single source of truth for dependencies is pyproject.toml.
+-e .[dev]

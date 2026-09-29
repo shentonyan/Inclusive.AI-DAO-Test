@@ -92,8 +92,7 @@ Scientific Reports 16, 11792，DOI：[10.1038/s41598-026-40180-8](https://doi.or
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-pip install -e .
+pip install -e ".[dev]"      # 依赖统一在 pyproject.toml 中定义
 
 # 把 OSF 的 6 个 CSV 放进 data\raw\（见 data\README.zh-CN.md），或指定目录：
 # $env:DAO_DATA_DIR = "D:\path\to\osf-files"
@@ -106,11 +105,13 @@ pytest                             # 将结果与论文数字逐项比对
 图 9 需要可选依赖（没有时会自动跳过）：
 
 ```powershell
-pip install scikit-learn spacy
+pip install -e ".[text]"
 python -m spacy download en_core_web_md
 ```
 
-数据文件不包含在仓库中，获取方式和 SHA-256 校验值见 `data/README.zh-CN.md`。没有数据时测试会被跳过。
+**没有数据时**：OSF 数据不包含在仓库中（获取方式和用于校验下载的 SHA-256 见 `data/README.zh-CN.md`）。没有数据时，`tests/test_smoke.py` 仍会在小型合成数据上测试读取、统计和 `run_all.py --quick`（CI 运行的就是这部分），而与论文数字比对的测试会被跳过。
+
+**源码与生成文件**：`src/`、`scripts/` 是源码；`results/` 是为方便查看而提交的参考输出，可用 `python scripts/run_all.py` 重新生成，不同库版本下末位数字可能略有差异；图 9 的结果依赖可选的 spaCy 模型。
 
 ## 输出
 

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it together with the original article."
+title: "Independent re-analysis of Sharma et al. (2026), DAO-based deliberation and voting"
+type: software
+authors:
+  - alias: shentonyan
+license: MIT
+abstract: >-
+  Independent re-implementation and comparison of the analyses in Sharma et al. (2026).
+  Not affiliated with the original authors.
+preferred-citation:
+  type: article
+  title: "Democratic governance through DAO-based deliberation and voting for inclusive decision making in AI models"
+  authors:
+    - family-names: Sharma
+      given-names: T.
+    - family-names: Potter
+      given-names: Y.
+    - family-names: Park
+      given-names: J.
+    - family-names: Liu
+      given-names: Y.
+    - family-names: Huang
+      given-names: Y.
+    - family-names: Liu
+      given-names: S.
+    - family-names: Song
+      given-names: D.
+    - family-names: Hancock
+      given-names: J.
+    - family-names: Wang
+      given-names: Y.
+  journal: "Scientific Reports"
+  volume: 16
+  year: 2026
+  doi: "10.1038/s41598-026-40180-8"
+  notes: "Article number 11792."
