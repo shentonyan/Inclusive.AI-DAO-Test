@@ -12,6 +12,10 @@ affiliated with the authors. The code repository named in the article was not
 available when this was written, so the analysis was rebuilt from the article's
 description and the released data.
 
+**Original article:** Sharma et al. (2026), *Scientific Reports* 16, 11792 —
+<https://www.nature.com/articles/s41598-026-40180-8> (DOI: <https://doi.org/10.1038/s41598-026-40180-8>).
+**Released data (OSF):** <https://osf.io/q6snh/>.
+
 ## Status
 
 | Item | Result |
@@ -30,6 +34,55 @@ The full list of what is and is not reproduced, with possible reasons, is sectio
 The notes also record several places where the article's sample sizes and text
 differ from the released files, and sensitivity analyses that the article does not
 report.
+
+## Figures: article vs. replication
+
+Each figure below is drawn from this repository's own analysis of the released data. Where the
+article's numbers are shown next to ours, they were measured or read from the article's figures
+(`data/paper_figures/`); the article's images themselves are not reproduced here. Read the
+original figures in the [article](https://www.nature.com/articles/s41598-026-40180-8) alongside these.
+
+### Fig. 3 — satisfaction (not computable from the released data; re-plotted)
+![Fig. 3: article vs. caption percentages](results/figures/fig3_paper_layout_pair.png)
+
+Top: shares read from the article's own graphic. Bottom: the percentages quoted in its caption.
+The three statements are not in the released files. The shares imply N = 138, and two caption
+percentages for the middle statement (7.2 %, 0.2 %) disagree with the graphic (2.2 %, 0.7 %).
+
+### Fig. 4 — token allocation (reproduced)
+![Fig. 4: replication vs. Table 1](results/figures/fig4_compare.png)
+
+Lines: replication. Rings: the article's Table 1 means. Largest difference 0.0005.
+
+### Figs 5–7 — survey ratings (reproduced; Fig. 7 with an inferred item mapping)
+![Fig. 5: article layout, article values (top) vs. replication (bottom)](results/figures/fig5_paper_layout_pair.png)
+![Fig. 6: article layout, article values (top) vs. replication (bottom)](results/figures/fig6_paper_layout_pair.png)
+![Fig. 7: article layout, article values (top) vs. replication (bottom)](results/figures/fig7_paper_layout_pair.png)
+
+Top of each: values measured from the article's figure. Bottom: replication. Largest differences:
+0.006 (Fig. 5), 0.014 (Fig. 6), 0.011 (Fig. 7); the reading error is about 0.015. Bars start at the
+scale minimum (1). The item-to-sub-scale mapping behind Fig. 7 is inferred, not supplied by the authors.
+
+![Agreement of all 88 bars](results/figures/agreement_figs5_7.png)
+
+With 95 % confidence intervals (the article draws none), per-item panels:
+[Fig. 5](results/figures/fig5_compare_panels.png), [Fig. 6](results/figures/fig6_compare_panels.png), [Fig. 7](results/figures/fig7_compare_panels.png).
+
+### Fig. 8 — correlation matrix (not reproduced)
+![Fig. 8: article's printed cells (top) vs. replication attempt (bottom)](results/figures/fig8_paper_vs_replication.png)
+
+Top: the 148 cells printed in the article. Bottom: released data with respondents paired by row
+index, which is an assumption because the two survey files share no participant id. 0 of 148
+printed cells are reproduced, and the result is indistinguishable from unlinked data.
+
+### Fig. 9 — message clusters (not reproduced; substitute embedding)
+![Fig. 9: t-SNE with a substitute embedding](results/figures/fig9_tsne_substitute_embedding.png)
+
+The article used OpenAI Ada-2 embeddings, which were not available here; this uses spaCy word
+vectors. The partition changes strongly with the embedding (ARI 0.06 against a TF-IDF version), so
+it should not be read as the article's clusters. No message text is shown.
+
+Details, numbers and caveats for every figure: [docs/FIGURE_COMPARISON.md](docs/FIGURE_COMPARISON.md).
 
 ## Quick start (Windows PowerShell)
 

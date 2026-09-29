@@ -9,6 +9,10 @@ Scientific Reports 16, 11792，DOI：[10.1038/s41598-026-40180-8](https://doi.or
 这是基于作者在 OSF 上公开的数据所做的独立复现，与作者无关联。论文中提到的原始代码仓库在
 撰写本仓库时已无法访问，因此分析是根据论文描述和公开数据重新搭建的。
 
+**原文：**Sharma 等（2026），*Scientific Reports* 16, 11792 ——
+<https://www.nature.com/articles/s41598-026-40180-8>（DOI：<https://doi.org/10.1038/s41598-026-40180-8>）。
+**作者公开的数据（OSF）：**<https://osf.io/q6snh/>。
+
 ## 复现状态
 
 | 项目 | 结果 |
@@ -25,6 +29,51 @@ Scientific Reports 16, 11792，DOI：[10.1038/s41598-026-40180-8](https://doi.or
 （[详情](docs/REPRODUCIBILITY.zh-CN.md)）。文档还记录了论文样本量、正文与公开文件不一致的地方，
 以及论文没有报告的敏感性分析。完整的"已复现 / 未复现 / 可能原因"清单见
 [docs/REPRODUCIBILITY.zh-CN.md](docs/REPRODUCIBILITY.zh-CN.md) 第 0 节。
+
+## 图表：论文 vs 复现
+
+下列每张图都由本仓库对公开数据的分析生成。图中与我们并列的论文数值，是从论文的图中量出或读出的
+（`data/paper_figures/`）；论文的图像本身没有放在这里。请对照
+[原文](https://www.nature.com/articles/s41598-026-40180-8)中的原图阅读。
+
+### 图 3 —— 满意度（无法由公开数据计算；仅重绘）
+![图 3：论文图 vs 说明文字百分比](results/figures/fig3_paper_layout_pair.png)
+
+上：从论文自己的图形读出的比例。下：其说明文字中给出的百分比。三个陈述不在公开文件中。这些比例
+对应 N = 138；中间陈述在说明文字中的两个百分比（7.2%、0.2%）与图形（2.2%、0.7%）不一致。
+
+### 图 4 —— token 分配（已复现）
+![图 4：复现 vs Table 1](results/figures/fig4_compare.png)
+
+线：复现。圆环：论文 Table 1 的均值。最大差 0.0005。
+
+### 图 5–7 —— 问卷评分（已复现；图 7 依赖推断的题目映射）
+![图 5：论文版式，上为论文数值，下为复现](results/figures/fig5_paper_layout_pair.png)
+![图 6：论文版式，上为论文数值，下为复现](results/figures/fig6_paper_layout_pair.png)
+![图 7：论文版式，上为论文数值，下为复现](results/figures/fig7_paper_layout_pair.png)
+
+每张图上方：从论文图中量出的数值；下方：复现。最大差：0.006（图 5）、0.014（图 6）、0.011
+（图 7）；读图误差约 0.015。柱子从量表最小值（1）画起。图 7 背后的题目到子量表映射是推断的，
+不是作者提供的。
+
+![88 根柱的一致性](results/figures/agreement_figs5_7.png)
+
+带 95% 置信区间的逐题面板（论文没有画置信区间）：
+[图 5](results/figures/fig5_compare_panels.png)、[图 6](results/figures/fig6_compare_panels.png)、[图 7](results/figures/fig7_compare_panels.png)。
+
+### 图 8 —— 相关矩阵（未复现）
+![图 8：论文印出的格子（上）vs 复现尝试（下）](results/figures/fig8_paper_vs_replication.png)
+
+上：论文印出的 148 个格子。下：公开数据按行号配对的结果——因为两份问卷没有共同 ID，这个配对只是
+假设。148 个已印格子 0 个复现，结果与未配对的数据无法区分。
+
+### 图 9 —— 消息聚类（未复现；替代嵌入）
+![图 9：替代嵌入的 t-SNE](results/figures/fig9_tsne_substitute_embedding.png)
+
+论文用 OpenAI Ada-2 嵌入，这里无法获得；此图使用 spaCy 词向量。划分随嵌入方式变化很大（与 TF-IDF
+版本的 ARI 仅 0.06），不应当作论文的聚类来读。图中不含消息文本。
+
+每张图的细节、数字和注意事项见 [docs/FIGURE_COMPARISON.zh-CN.md](docs/FIGURE_COMPARISON.zh-CN.md)。
 
 ## 主要发现
 
