@@ -1,0 +1,10 @@
+diagnostic,value
+"cells printed in the article (|r| >= 0.1), of 396",148
+"cells with |r| >= 0.1, our row-index pairing",61
+"same, random pairings within condition: mean",73.806
+"same, random pairings within condition: 2.5th-97.5th percentile",47-114
+printed cells reproduced within 0.005 (row-index pairing),0
+mean |ours - article| over printed cells,0.16717231105771577
+correlation of our and article's values over printed cells,0.051916575625648734
+same correlation under random pairings: mean,0.03284456835441257
+share of row-index-paired rows whose condition labels agree,0.18681318681318682

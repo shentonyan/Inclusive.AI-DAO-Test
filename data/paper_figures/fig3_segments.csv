@@ -1,0 +1,21 @@
+statement,category,pct_figure
+contributions,Disagree,0.725
+contributions,Somewhat Disagree,1.449
+contributions,Neutral,7.246
+contributions,Somewhat Agree,9.42
+contributions,Agree,36.232
+contributions,Strongly Agree,44.927
+contributions,Strongly Disagree,0.001
+trust,Disagree,0.725
+trust,Somewhat Disagree,2.174
+trust,Neutral,11.594
+trust,Somewhat Agree,13.043
+trust,Agree,47.101
+trust,Strongly Agree,25.362
+trust,Strongly Disagree,0.001
+experience,Somewhat Disagree,0.725
+experience,Neutral,1.449
+experience,Somewhat Agree,10.87
+experience,Agree,39.13
+experience,Strongly Agree,46.376
+experience,Strongly Disagree,1.45

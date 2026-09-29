@@ -1,0 +1,4 @@
+check,value
+"k-means seeds 1-8 vs. base run (ARI, min / median)",0.83 / 0.85
+TF-IDF+SVD embedding vs. word-vector embedding (ARI),0.06
+distinct messages / all messages,1749 / 5057

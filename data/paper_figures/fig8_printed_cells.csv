@@ -1,0 +1,19 @@
+,row_label,Q1_1,Q1_2,Q1_3,Q2_1,Q2_3,Q2_4,Q2_5,Q2_6,Q2_7,Q2_8,Q2_9,Q2_10,Electoral,Liberal,Participatory,Deliberative,Egalitarian,Rule of Law,Civil Liberties,Political Equality,Civil Society Participation,Judicial Constraints
+q1A,Prioritizing generating diverse outputs,,,0.12,,,,,,,,,,,,,,,0.1,,,,
+q1B,"Customization options, like specifying gender or ethnicity",0.18,,,,,,,,,0.1,,,,,,,,,,,,
+q1C,A diverse dataset in AI training for fair representation,-0.11,,,,,,,,,,,0.1,,,,,,,,,,
+q1D,Uncertainty handling to avoid assumptions and ensure diversity,,,,,0.12,,0.13,0.16,,0.18,,,0.16,0.1,0.13,0.23,0.12,0.23,,,,
+q1E,Feedback loops with users to ensure inclusivity,,,,,,0.1,0.25,0.13,,0.22,,,0.11,,0.16,0.18,,0.28,0.11,,0.22,
+q1F,"Ethical considerations, like avoiding stereotypes",-0.11,,,,,,,0.15,,0.14,,,0.2,0.1,0.13,0.2,0.17,0.16,0.1,,,
+q1G,Prioritizing cultural diversity and gender,,,,,,,,,,,0.11,,,,,,,,,,,
+q2A,The use case is not relevant to me,0.24,,,,,,,,,-0.1,,,,-0.16,,,,,,,,
+q2B,I feel AI could infringe on my representation,0.16,,-0.11,,,,,,0.12,,,,-0.13,,,,,,,,,
+q2C,I do not fully trust in the abilities of AI model,0.24,,,,,,,,,,,0.15,,,,,,,,,,
+q2D,Use case is too important to let the AI model decide,0.14,,,,,,,,,,-0.16,,-0.1,-0.1,,,,,-0.15,,,-0.11
+q2E,"I love organizing, and deciding everything myself",,,,,,,,,,-0.1,,,,,,,,-0.1,-0.17,,,-0.13
+q2F,Not be clear how decisions are produced by AI,,,,,-0.11,,,,,,-0.14,,-0.12,,,-0.16,,-0.13,,,,
+q2G,AI in general would treat me fairly,,,0.15,0.23,0.33,0.31,0.18,0.31,0.24,0.22,0.19,,0.24,0.13,0.24,0.28,0.29,0.32,0.14,0.17,0.2,0.2
+q2H,I believe AI actor would take necessary measures,-0.12,,0.13,0.16,0.24,0.14,0.16,0.26,0.19,0.26,0.21,,0.22,0.25,0.26,0.26,0.26,0.33,0.13,0.2,0.28,0.19
+q2I,I believe that AI would not intentionally harm me,,-0.22,,0.13,0.16,0.13,,0.17,0.16,0.17,0.27,,0.24,,,0.15,,0.2,0.12,0.1,0.14,
+q2J,I am better off with decisions made by AI,-0.15,,0.15,0.23,0.28,0.19,0.19,0.18,0.18,0.24,0.24,,0.21,0.27,0.18,0.13,0.16,0.27,,0.26,,
+q2K,I would be willing to let AI help me,,,,0.14,0.16,0.22,0.12,0.22,0.23,0.19,0.16,,0.24,0.2,0.23,0.22,0.16,0.23,0.1,0.14,0.1,

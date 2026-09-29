@@ -1,0 +1,13 @@
+cond,item,paper_value
+quadratic-equal,Q1_1,4.039
+quadratic-equal,Q1_2,4.039
+quadratic-equal,Q1_3,3.789
+quadratic-early,Q1_1,3.56
+quadratic-early,Q1_2,3.84
+quadratic-early,Q1_3,3.769
+ranked-equal,Q1_1,4.197
+ranked-equal,Q1_2,3.809
+ranked-equal,Q1_3,3.917
+ranked-early,Q1_1,3.82
+ranked-early,Q1_2,3.412
+ranked-early,Q1_3,3.82

@@ -1,0 +1,4 @@
+statement,sum_of_caption_pcts,sum_of_figure_pcts,smallest_N_consistent_with_figure,max_abs_caption_minus_figure
+experience,100.00000000000001,100.0,138,0.050000000000000044
+trust,104.5,100.0,138,5.026
+contributions,99.80000000000001,99.99999999999999,138,0.049000000000000155

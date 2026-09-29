@@ -1,0 +1,8 @@
+subscale,model,term,paper_coef,ours_coef,paper_p,ours_p,n,coef_match,p_match
+Electoral,oneway_same,same,0.2787,0.2787053841500282,0.0011,0.0011150431484805,182,True,True
+Liberal,oneway_quadratic,quadratic,-0.2143,-0.2142857142857158,0.0595,0.0594832359351534,182,True,True
+Participatory,oneway_quadratic,quadratic,-0.2234,-0.2234432234432244,0.0439,0.0438744308375844,182,True,True
+Civil Liberties,oneway_quadratic,quadratic,-0.1978,-0.1978021978022,0.0219,0.0218687126368919,182,True,True
+Judicial Constraints,oneway_quadratic,quadratic,-0.2051,-0.2051487838004708,0.0808,0.080775740763413,180,True,True
+Political Equality,oneway_quadratic,quadratic,0.2582,0.2582417582417567,0.058,0.0676688172989934,182,True,False
+Deliberative,interaction,quadratic:same,0.6029,0.0633156153319449,0.033,0.7327443477960812,182,False,False

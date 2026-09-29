@@ -1,0 +1,41 @@
+cond,item,paper_value
+quadratic-equal,Electoral,4.546
+quadratic-equal,Liberal,3.962
+quadratic-equal,Participatory,3.987
+quadratic-equal,Deliberative,4.162
+quadratic-equal,Egalitarian,3.987
+quadratic-equal,Rule of Law,3.864
+quadratic-equal,Civil Liberties,4.254
+quadratic-equal,Political Equality,4.1
+quadratic-equal,Civil Society Participation,4.054
+quadratic-equal,Judicial Constraints,3.818
+quadratic-early,Electoral,4.131
+quadratic-early,Liberal,3.874
+quadratic-early,Participatory,4.018
+quadratic-early,Deliberative,4.095
+quadratic-early,Egalitarian,3.972
+quadratic-early,Rule of Law,3.972
+quadratic-early,Civil Liberties,4.187
+quadratic-early,Political Equality,3.951
+quadratic-early,Civil Society Participation,4.131
+quadratic-early,Judicial Constraints,4.028
+ranked-equal,Electoral,4.526
+ranked-equal,Liberal,4.208
+ranked-equal,Participatory,4.29
+ranked-equal,Deliberative,4.054
+ranked-equal,Egalitarian,4.141
+ranked-equal,Rule of Law,4.141
+ranked-equal,Civil Liberties,4.423
+ranked-equal,Political Equality,3.849
+ranked-equal,Civil Society Participation,4.141
+ranked-equal,Judicial Constraints,4.121
+ranked-early,Electoral,4.382
+ranked-early,Liberal,4.064
+ranked-early,Participatory,4.162
+ranked-early,Deliberative,4.054
+ranked-early,Egalitarian,3.962
+ranked-early,Rule of Law,3.915
+ranked-early,Civil Liberties,4.403
+ranked-early,Political Equality,3.685
+ranked-early,Civil Society Participation,4.279
+ranked-early,Judicial Constraints,4.131

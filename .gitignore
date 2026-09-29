@@ -1,0 +1,16 @@
+# Raw OSF files are not redistributed here; see data/README.md
+data/raw/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

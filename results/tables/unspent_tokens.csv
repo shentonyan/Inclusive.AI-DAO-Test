@@ -1,0 +1,6 @@
+round,phase,n,n_underallocated,n_overallocated,mean_unspent_share
+1,main,102,16,1,0.09808823529411764
+2,pilots,8,6,0,0.2046875
+2,round-1,5,0,0,0.0
+2,round-2,17,0,0,0.0
+2,round-3,45,0,0,0.0
